@@ -153,8 +153,9 @@ nav li:hover {
   position: absolute;
   top: 25%;
   transform: translateY(-50%);
-  background-image: url("./../images/flechader.png");
+  background-image: url("./images/flechader.png");
   right: 5%;
+  z-index: 10;
 }
 
 .botonIzq {
@@ -167,8 +168,9 @@ nav li:hover {
   position: absolute;
   top: 25%;
   transform: translateY(-50%);
-  background-image: url("./../images/flechaiz.png");
+  background-image: url("./images/flechaiz.png");
   left: 5%;
+  z-index: 10;
 }
 
 .pregunta {
