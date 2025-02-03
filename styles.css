@@ -153,7 +153,7 @@ nav li:hover {
   position: absolute;
   top: 25%;
   transform: translateY(-50%);
-  background-image: url("../images/flechader.png");
+  background-image: url("./images/flechader.png");
   right: 5%;
 }
 
@@ -167,7 +167,7 @@ nav li:hover {
   position: absolute;
   top: 25%;
   transform: translateY(-50%);
-  background-image: url("../images/flechaiz.png");
+  background-image: url("./images/flechaiz.png");
   left: 5%;
 }
 
@@ -518,7 +518,7 @@ button[type=reset]:hover {
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .imagenesCuidados:hover {
-  box-shadow: 0 0 10px #22082c;
+  box-shadow: 10px 10px 10px rgba(34, 8, 44, 0.3568627451);
 }
 @-webkit-keyframes text-focus-in {
   0% {
